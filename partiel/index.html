@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sliders</title>
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Sliders</h1>
+    </header>
+
+    <div id="toolbar-toggle-container">
+      <button id="toolbar-toggle">Afficher/Cacher la barre d'outils</button>
+    </div>
+
+    <nav class="toolbar" id="toolbar">
+      <ul>
+        <li>
+          <button id="slider-previous">
+            <i class="fa-solid fa-arrow-left"></i>Précédent
+          </button>
+        </li>
+        <li>
+          <button id="slider-toggle">
+            <i class="fa-solid fa-play"></i>Play/Pause
+          </button>
+        </li>
+        <li>
+          <button id="slider-next">
+            <i class="fa-solid fa-arrow-right"></i>Suivant
+          </button>
+        </li>
+        <li>
+          <button id="slider-random">
+            <i class="fa-solid fa-shuffle"></i> Aléatoire
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <figure class="slider" id="slider">
+        <img
+          src="images/1.jpg"
+          alt="Un fond blanc immaculé, avec un ensemble de formes géométriques abstraites. Des lignes épurées se croisent et s'entremêlent, créant un jeu de contrastes entre l'ombre et la lumière. Des éclats de couleurs vives émergent çà et là, brisant la monotonie de la toile. L'ensemble dégage une impression de dynamisme et d'harmonie, invitant le spectateur à explorer les différentes dimensions de l'œuvre."
+        />
+        <figcaption>image</figcaption>
+      </figure>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
